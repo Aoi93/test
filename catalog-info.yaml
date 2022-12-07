@@ -5,6 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: Aoi93/demo
     backstage.io/kubernetes-id: uat-aks
+    argocd/app-name: bee-class-be-dev
 spec:
   type: service
   lifecycle: unknown
