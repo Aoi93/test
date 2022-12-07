@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test
+  annotations:
+    github.com/project-slug: Aoi93/demo
+    backstage.io/kubernetes-id: uat-aks
+spec:
+  type: other
+  lifecycle: unknown
+  owner: my-gr
