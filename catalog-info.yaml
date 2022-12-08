@@ -6,6 +6,7 @@ metadata:
     github.com/project-slug: Aoi93/demo
     backstage.io/kubernetes-id: uat-aks
     argocd/app-name: bee-class-be-dev
+    sonarqube.org/project-key: beeclass-app-be
 spec:
   type: service
   lifecycle: unknown
