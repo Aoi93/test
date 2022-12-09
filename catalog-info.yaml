@@ -7,6 +7,7 @@ metadata:
     backstage.io/kubernetes-id: uat-aks
     argocd/app-name: bee-class-be-dev
     sonarqube.org/project-key: beeclass-app-be
+    jenkins.io/job-full-name: beeclass/dev/beeclass-app-be
 spec:
   type: service
   lifecycle: unknown
