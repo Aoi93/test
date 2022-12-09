@@ -4,10 +4,19 @@ metadata:
   name: test
   annotations:
     github.com/project-slug: Aoi93/demo
-    backstage.io/kubernetes-id: uat-aks
+    backstage.io/kubernetes-label-selector: 'app=new-bee-class-be'
     argocd/app-name: bee-class-be-dev
     sonarqube.org/project-key: beeclass-app-be
     jenkins.io/job-full-name: beeclass/dev/beeclass-app-be
+  links:
+    - title: Website
+      url: http://backstage.io
+    - title: Documentation
+      url: https://backstage.io/docs
+    - title: Storybook
+      url: https://backstage.io/storybook
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX
 spec:
   type: service
   lifecycle: unknown
